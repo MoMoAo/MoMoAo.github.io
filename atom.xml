@@ -17,29 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>VSCode中C++环境配置</title>
-    <link href="https://github.com/MoMoAo/MoMoAo.github.io.git/posts/202308241554.html"/>
-    <id>https://github.com/MoMoAo/MoMoAo.github.io.git/posts/202308241554.html</id>
-    <published>2022-08-09T10:19:03.000Z</published>
-    <updated>2022-10-23T14:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="VSCode配置"><a href="#VSCode配置" class="headerlink" title="VSCode配置"></a>VSCode配置</h1><h1 id="c-环境配置"><a href="#c-环境配置" class="headerlink" title="c++环境配置"></a>c++环境配置</h1><ul><li><p>下载这个拓展，1.8.4版本<img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714165903555.png" alt="image-20230714165903555"></p></li><li><p>选择编译器第一个</p><p><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714170141470.png" alt="image-20230714170141470"></p></li><li><p>还是第一个</p><p><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714170213229.png" alt="image-20230714170213229"></p></li><li><p>运行后自动生成配置文件配置文件</p><ul><li><p>launch.json</p><ul><li>设置program指定exe文件生成路径</li><li>设置externalConsole指定是否在控制台中输出<ul><li>一般使用true（默认false），不然会有乱码问题</li></ul></li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714170851815.png" alt="image-20230714170851815"></li></ul></li><li><p>task.json</p><ul><li>这里也指定exe文件的路径，需要与上面的一样</li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714171026376.png" alt="image-20230714171026376"></li></ul></li></ul></li></ul><h1 id="自定义代码段配置"><a href="#自定义代码段配置" class="headerlink" title="自定义代码段配置"></a>自定义代码段配置</h1><ul><li></li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714171247386.png" alt="image-20230714171247386"></li></ul><p><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xNjI2NTE2Mi0yNzRiZTI5ZWQxNGY3NWU4LnBuZw.png" alt="aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xNjI2NTE2Mi0yNzRiZTI5ZWQxNGY3NWU4LnBuZw"></p><ul><li>文件中的配置</li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714172404490.png" alt="image-20230714172404490"></li><li><p><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714172345791.png" alt="image-20230714172345791"></p></li><li><p>配置书写规范</p></li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714172431725.png" alt="image-20230714172431725"></li></ul>]]></content>
-    
-    
-    <summary type="html">🥧本文汇总VSCode中C++环境的配置和使用</summary>
-    
-    
-    
-    <category term="教程" scheme="https://github.com/MoMoAo/MoMoAo.github.io.git/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="VSCode" scheme="https://github.com/MoMoAo/MoMoAo.github.io.git/tags/VSCode/"/>
-    
-    <category term="软件配置" scheme="https://github.com/MoMoAo/MoMoAo.github.io.git/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
     <link href="https://github.com/MoMoAo/MoMoAo.github.io.git/posts/2013454d.html"/>
     <id>https://github.com/MoMoAo/MoMoAo.github.io.git/posts/2013454d.html</id>
@@ -59,6 +36,29 @@
     <category term="Markdown" scheme="https://github.com/MoMoAo/MoMoAo.github.io.git/tags/Markdown/"/>
     
     <category term="外挂标签" scheme="https://github.com/MoMoAo/MoMoAo.github.io.git/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode中C++环境配置</title>
+    <link href="https://github.com/MoMoAo/MoMoAo.github.io.git/posts/202308241554.html"/>
+    <id>https://github.com/MoMoAo/MoMoAo.github.io.git/posts/202308241554.html</id>
+    <published>2022-08-09T10:19:03.000Z</published>
+    <updated>2022-10-23T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="VSCode配置"><a href="#VSCode配置" class="headerlink" title="VSCode配置"></a>VSCode配置</h1><h1 id="c-环境配置"><a href="#c-环境配置" class="headerlink" title="c++环境配置"></a>c++环境配置</h1><ul><li><p>下载这个拓展，1.8.4版本<img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714165903555.png" alt="image-20230714165903555"></p></li><li><p>选择编译器第一个</p><p><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714170141470.png" alt="image-20230714170141470"></p></li><li><p>还是第一个</p><p><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714170213229.png" alt="image-20230714170213229"></p></li><li><p>运行后自动生成配置文件配置文件</p><ul><li><p>launch.json</p><ul><li>设置program指定exe文件生成路径</li><li>设置externalConsole指定是否在控制台中输出<ul><li>一般使用true（默认false），不然会有乱码问题</li></ul></li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714170851815.png" alt="image-20230714170851815"></li></ul></li><li><p>task.json</p><ul><li>这里也指定exe文件的路径，需要与上面的一样</li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714171026376.png" alt="image-20230714171026376"></li></ul></li></ul></li></ul><h1 id="自定义代码段配置"><a href="#自定义代码段配置" class="headerlink" title="自定义代码段配置"></a>自定义代码段配置</h1><ul><li></li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714171247386.png" alt="image-20230714171247386"></li></ul><p><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xNjI2NTE2Mi0yNzRiZTI5ZWQxNGY3NWU4LnBuZw.png" alt="aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xNjI2NTE2Mi0yNzRiZTI5ZWQxNGY3NWU4LnBuZw"></p><ul><li>文件中的配置</li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714172404490.png" alt="image-20230714172404490"></li><li><p><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714172345791.png" alt="image-20230714172345791"></p></li><li><p>配置书写规范</p></li><li><img src="image/VSCode%E9%85%8D%E7%BD%AE_Image/image-20230714172431725.png" alt="image-20230714172431725"></li></ul>]]></content>
+    
+    
+    <summary type="html">🥧本文汇总VSCode中C++环境的配置和使用</summary>
+    
+    
+    
+    <category term="教程" scheme="https://github.com/MoMoAo/MoMoAo.github.io.git/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="VSCode" scheme="https://github.com/MoMoAo/MoMoAo.github.io.git/tags/VSCode/"/>
+    
+    <category term="软件配置" scheme="https://github.com/MoMoAo/MoMoAo.github.io.git/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
