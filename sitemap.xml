@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://momoao.github.io/life/games/index.html</loc>
+    <loc>https://momoao.github.io/personal/about/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -83,6 +83,24 @@
   </url>
   
   <url>
+    <loc>https://momoao.github.io/personal/bb/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://momoao.github.io/life/games/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://momoao.github.io/life/music/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -92,16 +110,7 @@
   </url>
   
   <url>
-    <loc>https://momoao.github.io/site/census/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://momoao.github.io/personal/about/index.html</loc>
+    <loc>https://momoao.github.io/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -119,15 +128,6 @@
   </url>
   
   <url>
-    <loc>https://momoao.github.io/personal/bb/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://momoao.github.io/social/link/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://momoao.github.io/site/time/index.html</loc>
+    <loc>https://momoao.github.io/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://momoao.github.io/social/fcircle/index.html</loc>
+    <loc>https://momoao.github.io/site/time/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -196,20 +196,6 @@
   </url>
   
   <url>
-    <loc>https://momoao.github.io/tags/C/</loc>
-    <lastmod>2023-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://momoao.github.io/tags/QT/</loc>
-    <lastmod>2023-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://momoao.github.io/tags/VSCode/</loc>
     <lastmod>2023-08-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -218,6 +204,20 @@
   
   <url>
     <loc>https://momoao.github.io/tags/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2023-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://momoao.github.io/tags/C/</loc>
+    <lastmod>2023-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://momoao.github.io/tags/QT/</loc>
     <lastmod>2023-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -233,14 +233,14 @@
   </url>
   
   <url>
-    <loc>https://momoao.github.io/categories/Study/</loc>
+    <loc>https://momoao.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://momoao.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://momoao.github.io/categories/Study/</loc>
     <lastmod>2023-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
