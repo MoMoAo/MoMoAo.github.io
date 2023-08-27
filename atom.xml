@@ -107,27 +107,6 @@
   </entry>
   
   <entry>
-    <title>Hexo</title>
-    <link href="https://momoao.github.io/posts/202308241940.html"/>
-    <id>https://momoao.github.io/posts/202308241940.html</id>
-    <published>2023-07-10T10:19:03.000Z</published>
-    <updated>2023-08-25T12:42:54.738Z</updated>
-    
-    <content type="html"><![CDATA[<h1>Hexo</h1><p>安装node.js</p><p>之后再命令行安装cnpm</p><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --<span class="keyword">register</span>=https:<span class="comment">//register.npm.taobao.org</span></span><br></pre></td></tr></table></figure><p>检测环境是否配置成功</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br><span class="line"><span class="keyword">node</span> <span class="title">-v</span></span><br><span class="line">cnpm -v</span><br></pre></td></tr></table></figure><p>安装hexo</p><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure><p>检测hexo安装情况</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo -v</span></span><br></pre></td></tr></table></figure><p>创建一个博客文件夹</p><p>在文件夹中初始化hexo</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">init</span></span><br></pre></td></tr></table></figure><p>本地启动</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure><p>想要连接远程仓库，配置_config.yml</p><p>在文件最后添加</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27;git&#x27;</span></span><br><span class="line">  repo: https:<span class="regexp">//gi</span>thub.com<span class="regexp">/MoMoAo/</span>MoMoAo.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><p>注意这里的仓库地址必须是&quot;<a href="http://xn--eqr924avxo.github.io">用户名.github.io</a>&quot;</p><p>创建新的博客,指定博客的主题</p><figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="built_in">n</span> <span class="string">&quot;我的第一篇博客&quot;</span></span><br></pre></td></tr></table></figure><p>创建完后会在source/_posts/下生成对应的.md文件</p><p>清理缓存</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure><p>根据md文件生成对应的文件</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure><p>在本目录装一个用于部署到git的插件</p><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install <span class="comment">--save hexo-deployer-git</span></span><br></pre></td></tr></table></figure><p>推送到远程库</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">🥧本文汇总Hexo博客框架的安装和使用方法</summary>
-    
-    
-    
-    <category term="框架" scheme="https://momoao.github.io/categories/%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Hexo" scheme="https://momoao.github.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Git</title>
     <link href="https://momoao.github.io/posts/202308241935.html"/>
     <id>https://momoao.github.io/posts/202308241935.html</id>
@@ -145,6 +124,27 @@
     
     
     <category term="Git" scheme="https://momoao.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo</title>
+    <link href="https://momoao.github.io/posts/202308241940.html"/>
+    <id>https://momoao.github.io/posts/202308241940.html</id>
+    <published>2023-07-10T10:19:03.000Z</published>
+    <updated>2023-08-25T12:42:54.738Z</updated>
+    
+    <content type="html"><![CDATA[<h1>Hexo</h1><p>安装node.js</p><p>之后再命令行安装cnpm</p><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --<span class="keyword">register</span>=https:<span class="comment">//register.npm.taobao.org</span></span><br></pre></td></tr></table></figure><p>检测环境是否配置成功</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br><span class="line"><span class="keyword">node</span> <span class="title">-v</span></span><br><span class="line">cnpm -v</span><br></pre></td></tr></table></figure><p>安装hexo</p><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure><p>检测hexo安装情况</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo -v</span></span><br></pre></td></tr></table></figure><p>创建一个博客文件夹</p><p>在文件夹中初始化hexo</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">init</span></span><br></pre></td></tr></table></figure><p>本地启动</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure><p>想要连接远程仓库，配置_config.yml</p><p>在文件最后添加</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27;git&#x27;</span></span><br><span class="line">  repo: https:<span class="regexp">//gi</span>thub.com<span class="regexp">/MoMoAo/</span>MoMoAo.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><p>注意这里的仓库地址必须是&quot;<a href="http://xn--eqr924avxo.github.io">用户名.github.io</a>&quot;</p><p>创建新的博客,指定博客的主题</p><figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="built_in">n</span> <span class="string">&quot;我的第一篇博客&quot;</span></span><br></pre></td></tr></table></figure><p>创建完后会在source/_posts/下生成对应的.md文件</p><p>清理缓存</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure><p>根据md文件生成对应的文件</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure><p>在本目录装一个用于部署到git的插件</p><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install <span class="comment">--save hexo-deployer-git</span></span><br></pre></td></tr></table></figure><p>推送到远程库</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">🥧本文汇总Hexo博客框架的安装和使用方法</summary>
+    
+    
+    
+    <category term="框架" scheme="https://momoao.github.io/categories/%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="Hexo" scheme="https://momoao.github.io/tags/Hexo/"/>
     
   </entry>
   
