@@ -675,7 +675,7 @@ if (document.body.clientWidth > 992) {
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
         nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
-        hoverMsg: "春天啦~",
+        hoverMsg: "哈基米~",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",
@@ -2593,6 +2593,13 @@ if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
+if ((lunar["IMonthCn"] == "十月" && lunar["IDayCn"] == "初二")) {
+  //我的生日
+  if (sessionStorage.getItem("isPopupWindow") != "1") {
+    Swal.fire("祝我生日快乐\n请你吃个蛋糕吧🍰");
+    sessionStorage.setItem("isPopupWindow", "1");
+  }
+}
 
 // 切换主题提醒
 // if (y == 2022 && m == 12 && (dd >= 18 && dd <= 20)) {
@@ -2803,7 +2810,7 @@ function createtime() {
   1 == String(snum).length && (snum = "0" + snum);
   let currentTimeHtml = "";
   (currentTimeHtml =
-    hnum < 18 && hnum >= 9
+    hnum < 19 && hnum >= 8
       ? `<img class='boardsign' src='https://MoMoAo.github.io/assets/shangban.jfif' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
       : `<img class='boardsign' src='https://MoMoAo.github.io/assets/xiaban.jfif' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
     document.getElementById("workboard") &&
