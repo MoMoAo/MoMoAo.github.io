@@ -6,7 +6,7 @@
   <link href="https://momoao.github.io/atom.xml" rel="self"/>
   
   <link href="https://momoao.github.io/"/>
-  <updated>2023-09-14T13:10:27.850Z</updated>
+  <updated>2023-09-14T13:30:39.301Z</updated>
   <id>https://momoao.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://momoao.github.io/posts/202309142103.html"/>
     <id>https://momoao.github.io/posts/202309142103.html</id>
     <published>2023-09-14T10:19:03.000Z</published>
-    <updated>2023-09-14T13:10:27.850Z</updated>
+    <updated>2023-09-14T13:30:39.301Z</updated>
     
-    <content type="html"><![CDATA[<h1>MyBatis-Plus</h1><p><a href="https://baomidou.com/pages/24112f/">MyBatis-Plus官网文档</a></p><div class="tabs" id="分栏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#分栏-1">MyBatisPlus（SpringBoot版）</button></li><li class="tab"><button type="button" data-href="#分栏-2">MyBatisPlus（Spring版）</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="分栏-1"><pre><code>&lt;div class=&quot;row&quot;&gt;&lt;embed src=&quot;https://blog.tianao.top/assets/files/MyBatisPlus(SpringBoot).pdf&quot; width=&quot;100%&quot; height=&quot;550&quot; type=&quot;application/pdf&quot;&gt;&lt;/div&gt;</code></pre><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="分栏-2"><pre><code>&lt;div class=&quot;row&quot;&gt;&lt;embed src=&quot;https://blog.tianao.top/assets/files/MyBatisPlus(Spring).pdf&quot; width=&quot;100%&quot; height=&quot;550&quot; type=&quot;application/pdf&quot;&gt;&lt;/div&gt;</code></pre><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div> <h1>AI总结</h1><p>MyBatis-Plus 是 MyBatis 的一个增强工具包，它简化了在 Java 应用中使用 MyBatis 进行数据库访问的开发工作。MyBatis-Plus 提供了一些方便的功能和特性，使开发人员更轻松地与数据库交互，减少了编写样板代码的工作。以下是 MyBatis-Plus 的主要特点和功能：</p><ol><li><p><strong>基于 MyBatis</strong>：MyBatis-Plus 是 MyBatis 的扩展，它充分利用了 MyBatis 的核心功能，因此与 MyBatis 高度兼容，可以与现有的 MyBatis 项目集成。</p></li><li><p><strong>代码生成器</strong>：MyBatis-Plus 提供了一个代码生成器，可以根据数据库表结构自动生成实体类、Mapper 接口和XML映射文件，减少了手动编写这些文件的工作量。这个功能在快速开发原型或新项目时特别有用。</p></li><li><p><strong>强大的查询构建器</strong>：MyBatis-Plus 提供了一个强大的查询构建器，允许开发人员以面向对象的方式构建数据库查询，而不必编写复杂的 SQL。这使得构建复杂查询变得更加容易。</p></li><li><p><strong>通用 CRUD 操作</strong>：MyBatis-Plus 提供了通用的 CRUD（增删改查）操作方法，无需编写SQL语句，您可以轻松地执行数据库操作，包括插入、更新、删除和查询。</p></li><li><p><strong>分页查询支持</strong>：MyBatis-Plus 内置了分页查询的支持，可以方便地进行分页查询操作。</p></li><li><p><strong>条件构造器</strong>：MyBatis-Plus 提供了条件构造器，允许您以一种更加直观的方式构建复杂的查询条件，避免手动拼接 SQL 语句。</p></li><li><p><strong>逻辑删除</strong>：MyBatis-Plus 支持逻辑删除，可以通过标记删除标志而不是物理删除来删除记录，从而保留数据的完整性。</p></li><li><p><strong>自动填充</strong>：MyBatis-Plus 允许您在插入或更新记录时自动填充某些字段，例如创建时间或修改时间字段，减少了手动设置这些字段的工作。</p></li><li><p><strong>乐观锁支持</strong>：MyBatis-Plus 支持乐观锁，用于处理并发更新操作，以避免数据冲突。</p></li><li><p><strong>多数据源支持</strong>：MyBatis-Plus 提供了对多数据源的支持，可以在一个应用程序中轻松管理多个数据库连接。</p></li></ol><p>总之，MyBatis-Plus 是一个强大的数据库访问工具，它简化了与数据库的交互，减少了开发工作量，并提供了许多有用的功能和特性。它广泛用于 Java 项目中，特别是基于 MyBatis 的数据库访问层的开发。如果您正在开发一个使用 MyBatis 的 Java 应用程序，MyBatis-Plus 可能是一个有价值的工具包，可以提高开发效率并改善代码质量。</p>]]></content>
+    <content type="html"><![CDATA[<h1>MyBatis-Plus</h1><div class="note info flat"><p>参考：学习参考B站尚硅谷-MyBatisPlus教程</p></div><p><a href="https://baomidou.com/pages/24112f/">MyBatis-Plus官网文档</a></p><h1>笔记</h1><p>SpringBoot版本</p> <div class="row">    <embed src="https://blog.tianao.top/assets/files/MyBatisPlus(SpringBoot).pdf" width="100%" height="550" type="application/pdf"></div><p>Spring版本</p> <div class="row">    <embed src="https://blog.tianao.top/assets/files/MyBatisPlus(Spring).pdf" width="100%" height="550" type="application/pdf"></div><h1>AI总结</h1><p>MyBatis-Plus 是 MyBatis 的一个增强工具包，它简化了在 Java 应用中使用 MyBatis 进行数据库访问的开发工作。MyBatis-Plus 提供了一些方便的功能和特性，使开发人员更轻松地与数据库交互，减少了编写样板代码的工作。以下是 MyBatis-Plus 的主要特点和功能：</p><ol><li><p><strong>基于 MyBatis</strong>：MyBatis-Plus 是 MyBatis 的扩展，它充分利用了 MyBatis 的核心功能，因此与 MyBatis 高度兼容，可以与现有的 MyBatis 项目集成。</p></li><li><p><strong>代码生成器</strong>：MyBatis-Plus 提供了一个代码生成器，可以根据数据库表结构自动生成实体类、Mapper 接口和XML映射文件，减少了手动编写这些文件的工作量。这个功能在快速开发原型或新项目时特别有用。</p></li><li><p><strong>强大的查询构建器</strong>：MyBatis-Plus 提供了一个强大的查询构建器，允许开发人员以面向对象的方式构建数据库查询，而不必编写复杂的 SQL。这使得构建复杂查询变得更加容易。</p></li><li><p><strong>通用 CRUD 操作</strong>：MyBatis-Plus 提供了通用的 CRUD（增删改查）操作方法，无需编写SQL语句，您可以轻松地执行数据库操作，包括插入、更新、删除和查询。</p></li><li><p><strong>分页查询支持</strong>：MyBatis-Plus 内置了分页查询的支持，可以方便地进行分页查询操作。</p></li><li><p><strong>条件构造器</strong>：MyBatis-Plus 提供了条件构造器，允许您以一种更加直观的方式构建复杂的查询条件，避免手动拼接 SQL 语句。</p></li><li><p><strong>逻辑删除</strong>：MyBatis-Plus 支持逻辑删除，可以通过标记删除标志而不是物理删除来删除记录，从而保留数据的完整性。</p></li><li><p><strong>自动填充</strong>：MyBatis-Plus 允许您在插入或更新记录时自动填充某些字段，例如创建时间或修改时间字段，减少了手动设置这些字段的工作。</p></li><li><p><strong>乐观锁支持</strong>：MyBatis-Plus 支持乐观锁，用于处理并发更新操作，以避免数据冲突。</p></li><li><p><strong>多数据源支持</strong>：MyBatis-Plus 提供了对多数据源的支持，可以在一个应用程序中轻松管理多个数据库连接。</p></li></ol><p>总之，MyBatis-Plus 是一个强大的数据库访问工具，它简化了与数据库的交互，减少了开发工作量，并提供了许多有用的功能和特性。它广泛用于 Java 项目中，特别是基于 MyBatis 的数据库访问层的开发。如果您正在开发一个使用 MyBatis 的 Java 应用程序，MyBatis-Plus 可能是一个有价值的工具包，可以提高开发效率并改善代码质量。</p>]]></content>
     
     
     <summary type="html">🍔本文汇总MyBatis-Plus的使用和基础知识</summary>
@@ -264,27 +264,6 @@
   </entry>
   
   <entry>
-    <title>Hexo</title>
-    <link href="https://momoao.github.io/posts/202308241940.html"/>
-    <id>https://momoao.github.io/posts/202308241940.html</id>
-    <published>2023-07-10T10:19:03.000Z</published>
-    <updated>2023-08-25T12:42:54.738Z</updated>
-    
-    <content type="html"><![CDATA[<h1>Hexo</h1><p>安装node.js</p><p>之后再命令行安装cnpm</p><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --<span class="keyword">register</span>=https:<span class="comment">//register.npm.taobao.org</span></span><br></pre></td></tr></table></figure><p>检测环境是否配置成功</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br><span class="line"><span class="keyword">node</span> <span class="title">-v</span></span><br><span class="line">cnpm -v</span><br></pre></td></tr></table></figure><p>安装hexo</p><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure><p>检测hexo安装情况</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo -v</span></span><br></pre></td></tr></table></figure><p>创建一个博客文件夹</p><p>在文件夹中初始化hexo</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">init</span></span><br></pre></td></tr></table></figure><p>本地启动</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure><p>想要连接远程仓库，配置_config.yml</p><p>在文件最后添加</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27;git&#x27;</span></span><br><span class="line">  repo: https:<span class="regexp">//gi</span>thub.com<span class="regexp">/MoMoAo/</span>MoMoAo.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><p>注意这里的仓库地址必须是&quot;<a href="http://xn--eqr924avxo.github.io">用户名.github.io</a>&quot;</p><p>创建新的博客,指定博客的主题</p><figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="built_in">n</span> <span class="string">&quot;我的第一篇博客&quot;</span></span><br></pre></td></tr></table></figure><p>创建完后会在source/_posts/下生成对应的.md文件</p><p>清理缓存</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure><p>根据md文件生成对应的文件</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure><p>在本目录装一个用于部署到git的插件</p><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install <span class="comment">--save hexo-deployer-git</span></span><br></pre></td></tr></table></figure><p>推送到远程库</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">🥧本文汇总Hexo博客框架的安装和使用方法</summary>
-    
-    
-    
-    <category term="框架" scheme="https://momoao.github.io/categories/%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Hexo" scheme="https://momoao.github.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Git</title>
     <link href="https://momoao.github.io/posts/202308241935.html"/>
     <id>https://momoao.github.io/posts/202308241935.html</id>
@@ -302,6 +281,27 @@
     
     
     <category term="Git" scheme="https://momoao.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo</title>
+    <link href="https://momoao.github.io/posts/202308241940.html"/>
+    <id>https://momoao.github.io/posts/202308241940.html</id>
+    <published>2023-07-10T10:19:03.000Z</published>
+    <updated>2023-08-25T12:42:54.738Z</updated>
+    
+    <content type="html"><![CDATA[<h1>Hexo</h1><p>安装node.js</p><p>之后再命令行安装cnpm</p><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --<span class="keyword">register</span>=https:<span class="comment">//register.npm.taobao.org</span></span><br></pre></td></tr></table></figure><p>检测环境是否配置成功</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br><span class="line"><span class="keyword">node</span> <span class="title">-v</span></span><br><span class="line">cnpm -v</span><br></pre></td></tr></table></figure><p>安装hexo</p><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure><p>检测hexo安装情况</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo -v</span></span><br></pre></td></tr></table></figure><p>创建一个博客文件夹</p><p>在文件夹中初始化hexo</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">init</span></span><br></pre></td></tr></table></figure><p>本地启动</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure><p>想要连接远程仓库，配置_config.yml</p><p>在文件最后添加</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27;git&#x27;</span></span><br><span class="line">  repo: https:<span class="regexp">//gi</span>thub.com<span class="regexp">/MoMoAo/</span>MoMoAo.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><p>注意这里的仓库地址必须是&quot;<a href="http://xn--eqr924avxo.github.io">用户名.github.io</a>&quot;</p><p>创建新的博客,指定博客的主题</p><figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="built_in">n</span> <span class="string">&quot;我的第一篇博客&quot;</span></span><br></pre></td></tr></table></figure><p>创建完后会在source/_posts/下生成对应的.md文件</p><p>清理缓存</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure><p>根据md文件生成对应的文件</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure><p>在本目录装一个用于部署到git的插件</p><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install <span class="comment">--save hexo-deployer-git</span></span><br></pre></td></tr></table></figure><p>推送到远程库</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">🥧本文汇总Hexo博客框架的安装和使用方法</summary>
+    
+    
+    
+    <category term="框架" scheme="https://momoao.github.io/categories/%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="Hexo" scheme="https://momoao.github.io/tags/Hexo/"/>
     
   </entry>
   
@@ -394,27 +394,6 @@
   </entry>
   
   <entry>
-    <title>Redis</title>
-    <link href="https://momoao.github.io/posts/202308241944.html"/>
-    <id>https://momoao.github.io/posts/202308241944.html</id>
-    <published>2023-07-10T10:19:03.000Z</published>
-    <updated>2023-08-25T12:43:12.766Z</updated>
-    
-    <content type="html"><![CDATA[<h1>Redis</h1><p>Remote Dictionary Server</p><h1>GPT</h1><h2 id="基础指令">基础指令</h2><p>Redis是一个开源的高性能键值存储数据库，支持各种数据结构，如字符串、哈希表、列表、集合、有序集合等。它提供了丰富的命令集，用于操作和管理存储在Redis中的数据。以下是一些Redis的基本指令：</p><ol><li><p><strong>字符串操作</strong>：</p><ul><li><code>SET key value</code>: 设置指定键的值。</li><li><code>GET key</code>: 获取指定键的值。</li><li><code>DEL key</code>: 删除指定键及其值。</li><li><code>EXISTS key</code>: 检查键是否存在。</li></ul></li><li><p><strong>哈希表操作</strong>：</p><ul><li><code>HSET key field value</code>: 设置指定哈希表中字段的值。</li><li><code>HGET key field</code>: 获取指定哈希表中字段的值。</li><li><code>HDEL key field [field ...]</code>: 删除指定哈希表中的一个或多个字段。</li><li><code>HGETALL key</code>: 获取指定哈希表的所有字段和值。</li></ul></li><li><p><strong>列表操作</strong>：</p><ul><li><code>LPUSH key value [value ...]</code>: 将一个或多个值插入到列表的头部。</li><li><code>RPUSH key value [value ...]</code>: 将一个或多个值插入到列表的尾部。</li><li><code>LPOP key</code>: 弹出并返回列表的头部元素。</li><li><code>RPOP key</code>: 弹出并返回列表的尾部元素。</li><li><code>LRANGE key start stop</code>: 获取列表指定范围的元素。</li></ul></li><li><p><strong>集合操作</strong>：</p><ul><li><code>SADD key member [member ...]</code>: 将一个或多个元素添加到集合。</li><li><code>SMEMBERS key</code>: 获取集合中的所有元素。</li><li><code>SREM key member [member ...]</code>: 从集合中删除一个或多个元素。</li><li><code>SINTER key [key ...]</code>: 获取多个集合的交集。</li></ul></li><li><p><strong>有序集合操作</strong>：</p><ul><li><code>ZADD key score member [score member ...]</code>: 将一个或多个带有分数的元素添加到有序集合。</li><li><code>ZRANGE key start stop [WITHSCORES]</code>: 获取有序集合指定范围的元素。</li><li><code>ZREM key member [member ...]</code>: 从有序集合中删除一个或多个元素。</li><li><code>ZCOUNT key min max</code>: 获取有序集合指定分数范围内的元素数量。</li></ul></li><li><p><strong>其他常用指令</strong>：</p><ul><li><code>PING</code>: 检测Redis服务器是否运行。</li><li><code>SELECT index</code>: 切换到指定数据库。</li><li><code>FLUSHDB</code>: 清空当前数据库的所有键。</li><li><code>FLUSHALL</code>: 清空所有数据库的所有键。</li></ul></li></ol><p>这只是Redis提供的一小部分基本指令，Redis还有很多其他的高级指令和功能，如事务、发布订阅、持久化、过期时间等。请参考Redis官方文档或相关教程以了解更多详细信息和用法。</p>]]></content>
-    
-    
-    <summary type="html">🥧本文汇总Redis的安装和使用</summary>
-    
-    
-    
-    <category term="数据库" scheme="https://momoao.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-    <category term="Redis" scheme="https://momoao.github.io/tags/Redis/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Shell编程</title>
     <link href="https://momoao.github.io/posts/202308241921.html"/>
     <id>https://momoao.github.io/posts/202308241921.html</id>
@@ -432,6 +411,27 @@
     
     
     <category term="Shell" scheme="https://momoao.github.io/tags/Shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redis</title>
+    <link href="https://momoao.github.io/posts/202308241944.html"/>
+    <id>https://momoao.github.io/posts/202308241944.html</id>
+    <published>2023-07-10T10:19:03.000Z</published>
+    <updated>2023-08-25T12:43:12.766Z</updated>
+    
+    <content type="html"><![CDATA[<h1>Redis</h1><p>Remote Dictionary Server</p><h1>GPT</h1><h2 id="基础指令">基础指令</h2><p>Redis是一个开源的高性能键值存储数据库，支持各种数据结构，如字符串、哈希表、列表、集合、有序集合等。它提供了丰富的命令集，用于操作和管理存储在Redis中的数据。以下是一些Redis的基本指令：</p><ol><li><p><strong>字符串操作</strong>：</p><ul><li><code>SET key value</code>: 设置指定键的值。</li><li><code>GET key</code>: 获取指定键的值。</li><li><code>DEL key</code>: 删除指定键及其值。</li><li><code>EXISTS key</code>: 检查键是否存在。</li></ul></li><li><p><strong>哈希表操作</strong>：</p><ul><li><code>HSET key field value</code>: 设置指定哈希表中字段的值。</li><li><code>HGET key field</code>: 获取指定哈希表中字段的值。</li><li><code>HDEL key field [field ...]</code>: 删除指定哈希表中的一个或多个字段。</li><li><code>HGETALL key</code>: 获取指定哈希表的所有字段和值。</li></ul></li><li><p><strong>列表操作</strong>：</p><ul><li><code>LPUSH key value [value ...]</code>: 将一个或多个值插入到列表的头部。</li><li><code>RPUSH key value [value ...]</code>: 将一个或多个值插入到列表的尾部。</li><li><code>LPOP key</code>: 弹出并返回列表的头部元素。</li><li><code>RPOP key</code>: 弹出并返回列表的尾部元素。</li><li><code>LRANGE key start stop</code>: 获取列表指定范围的元素。</li></ul></li><li><p><strong>集合操作</strong>：</p><ul><li><code>SADD key member [member ...]</code>: 将一个或多个元素添加到集合。</li><li><code>SMEMBERS key</code>: 获取集合中的所有元素。</li><li><code>SREM key member [member ...]</code>: 从集合中删除一个或多个元素。</li><li><code>SINTER key [key ...]</code>: 获取多个集合的交集。</li></ul></li><li><p><strong>有序集合操作</strong>：</p><ul><li><code>ZADD key score member [score member ...]</code>: 将一个或多个带有分数的元素添加到有序集合。</li><li><code>ZRANGE key start stop [WITHSCORES]</code>: 获取有序集合指定范围的元素。</li><li><code>ZREM key member [member ...]</code>: 从有序集合中删除一个或多个元素。</li><li><code>ZCOUNT key min max</code>: 获取有序集合指定分数范围内的元素数量。</li></ul></li><li><p><strong>其他常用指令</strong>：</p><ul><li><code>PING</code>: 检测Redis服务器是否运行。</li><li><code>SELECT index</code>: 切换到指定数据库。</li><li><code>FLUSHDB</code>: 清空当前数据库的所有键。</li><li><code>FLUSHALL</code>: 清空所有数据库的所有键。</li></ul></li></ol><p>这只是Redis提供的一小部分基本指令，Redis还有很多其他的高级指令和功能，如事务、发布订阅、持久化、过期时间等。请参考Redis官方文档或相关教程以了解更多详细信息和用法。</p>]]></content>
+    
+    
+    <summary type="html">🥧本文汇总Redis的安装和使用</summary>
+    
+    
+    
+    <category term="数据库" scheme="https://momoao.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="Redis" scheme="https://momoao.github.io/tags/Redis/"/>
     
   </entry>
   
